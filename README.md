@@ -20,3 +20,6 @@ The command bellow removes the containers but preserves your WordPress database.
 
 To remove both containers and the database, run:
     docker-compose down --volumes
+
+## Usefull commands
+> - `mysqldump [OPTIONS] -p`
