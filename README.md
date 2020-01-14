@@ -17,9 +17,20 @@ Finish setting up by filling up the fields asked by WordPress with the blog's de
 ## Shutdown and cleanup
 The command bellow removes the containers but preserves your WordPress database.
     docker-compose down
+> Actually it preserves the volume. Since the only volume is the database, it preserves it
 
 To remove both containers and the database, run:
     docker-compose down --volumes
+> It actually removes the volumes
+
+## Backup
+    docker run --rm --volumes-from [CONTAINER_ID] -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar [VOLUME_LOCATION]
+> VOLUME_LOCATION example: /var/lib/mysql
+
+## Restore
+    docker run --rm --volumes-from [CONTAINER_ID] -v $(pwd):/backup ubuntu bash -c "cd [VOLUME_LOCATION] && tar xvf /backup/backup.tar --strip 1"
+> Here the CONAINER_ID is the new container you want to input the data
+> And the VOLUME_LOCATION is the location of the new volume
 
 ## Usefull commands
 > - `mysqldump [OPTIONS] -p`
