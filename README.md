@@ -34,3 +34,6 @@ To remove both containers and the database, run:
 
 ## Usefull commands
 > - `mysqldump [OPTIONS] -p`
+
+sudo docker exec 5214275e7a40 /usr/bin/mysqldump -u root --password=root wordpress > backup.sql
+cat backup3.sql | sudo docker exec -i 4415ed64d3eb /usr/bin/mysql -u root --password=root wordpress
