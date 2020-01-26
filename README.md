@@ -37,3 +37,5 @@ To remove both containers and the database, run:
 
 sudo docker exec 5214275e7a40 /usr/bin/mysqldump -u root --password=root wordpress > backup.sql
 cat backup3.sql | sudo docker exec -i 4415ed64d3eb /usr/bin/mysql -u root --password=root wordpress
+
+ ssh -i ~/Downloads/MotizukiBlog.pem ubuntu@ec2-18-225-33-202.us-east-2.compute.amazonaws.com
