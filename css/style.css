@@ -1,5 +1,5 @@
 .hero-image {
-    background-image: url(images/background.jpg);
+    background-image: url(../images/background.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -16,6 +16,8 @@
 .nav-brand {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .nav-brand:hover {
