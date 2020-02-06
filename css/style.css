@@ -13,6 +13,10 @@
     background-color: #FFF;
 }
 
+.nav {
+    padding-top: 3rem !important
+}
+
 .nav-brand {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
