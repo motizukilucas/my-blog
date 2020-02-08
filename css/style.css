@@ -79,4 +79,9 @@
     .hero-text-wrapper {
         height: 55%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
     }
+
+    .hero-button {
+        font-size: 22px;
+        width: 225px;
+    }
 }
