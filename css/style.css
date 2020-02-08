@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
+    height: 70%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
 }
 
 .hero-text {
@@ -42,4 +42,5 @@
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 500;
+    color: #FFF;
 }
