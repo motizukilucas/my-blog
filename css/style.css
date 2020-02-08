@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 70%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
+    height: 55%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
 }
 
 .hero-text {
@@ -43,4 +43,40 @@
     font-size: 28px;
     font-weight: 500;
     color: #FFF;
+}
+
+.hero-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-button {
+    font-size: 28px;
+    color: #FFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFF;
+    border-radius: 50px;
+    background: transparent;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 321px) {
+    .nav-brand {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .hero-text {
+        font-size: 22px;
+    }
+
+    .hero-text-wrapper {
+        height: 55%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
+    }
 }
