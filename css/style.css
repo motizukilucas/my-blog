@@ -65,6 +65,24 @@
     margin: auto;
 }
 
+.section-header {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2em;
+}
+
+.about-image {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
 @media only screen and (min-width: 321px) {
     .nav-brand {
         font-size: 22px;
@@ -83,5 +101,17 @@
     .hero-button {
         font-size: 22px;
         width: 225px;
+    }
+
+    .section-header {
+        margin-bottom: 32px;
+    }
+
+    .about-text {
+        padding-top: 0px;
+    }
+
+    .about-image-wrapper {
+        margin-top: 3em;
     }
 }
