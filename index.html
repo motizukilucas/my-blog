@@ -55,9 +55,16 @@
                         <img class="about-image" src="images/profile.jpg">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 offset-md-0 offset-2 col-10"></div>
-                    <div class="offset-md-2 col-md-6 col-12">
+
+                <div class="row section-spacing">
+
+
+                    <div id="canvas-holder" class="offset-md-2 col-md-6 col-12" style="width:40%"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                        <canvas id="chart-area" style="display: block; width: 513px; height: 256px;" width="513" height="256" class="chartjs-render-monitor"></canvas>
+                    </div>
+
+
+                    <div class="col-md-4 col-12">
                         I can work with a side set of tools:
                         <br>
                         <i class="fab fa-js"></i>
@@ -74,9 +81,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="canvas-holder" style="width:40%"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-            <canvas id="chart-area" style="display: block; width: 513px; height: 256px;" width="513" height="256" class="chartjs-render-monitor"></canvas>
         </div>
         <script src="main.js"></script>
     </body>
