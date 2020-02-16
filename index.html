@@ -14,10 +14,8 @@
         <link href="resources/css/style.css" rel="stylesheet">
     </head>
     <body>
-
-        <section class="hero-image">
+        <section class="hero">
             <div class="hero-color-overlay">
-
                 <div class="container">
                     <ul class="nav">
                         <button class="hamburger hamburger--elastic" type="button">
@@ -27,8 +25,6 @@
                         </button>
                         <a class="nav-brand ml-auto mr-3" href="/" aria-label="Lucas Motizuki">Lucas Motizuki</a>
                     </ul>
-                
-
                     <div class="hero-text-wrapper">
                         <div class="hero-text">
                             developer & designer <br>
@@ -36,57 +32,51 @@
                             nice to meet you :)
                         </div>
                     </div>
-
                     <div class="hero-button-wrapper">
                         <button class="hero-button">
                             Get to know me >
                         </button>
                     </div>
                 </div>
-
             </div>  
         </section>
-
         <section class="container">
             <h1 class="section-header">Who am I?</h1>
-                <div class="row">
-                    <div class="offset-md-2 col-md-6 col-12 about-text">
-                        I'm a computer science student at Veiga de Almeida University. <br>
-                        Last year I worked as a full stack for Bilo, a startup based in Rio. <br>
-                        Couple years earlier I did research and development for Ilumno. <br>
-                        Now I struggling with my thesis on game development. <br>
-                        Here is a picture of my pretty face.
-                    </div>
-                    <div class="about-image-wrapper col-md-3 offset-md-0 offset-2 col-10">
-                        <img class="about-image" src="resources/images/profile.jpg">
+            <div class="row">
+                <div class="offset-md-2 col-md-6 col-12 about-text">
+                    I'm a computer science student at Veiga de Almeida University. <br>
+                    Last year I worked as a full stack for Bilo, a startup based in Rio. <br>
+                    Couple years earlier I did research and development for Ilumno. <br>
+                    Now I struggling with my thesis on game development. <br>
+                    Here is a picture of my pretty face.
+                </div>
+                <div class="about-image-wrapper col-md-3 offset-md-0 offset-2 col-10">
+                    <img class="about-image" src="resources/images/profile.jpg">
+                </div>
+            </div>
+            <div class="row section-spacing">
+                <div id="canvas-holder" class="offset-md-1 col-md-6 col-12" style="width:40%"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                    <canvas id="chart-area" style="display: block; width: 513px; height: 256px;" width="513" height="256" class="chartjs-render-monitor"></canvas>
+                </div>
+                <div class="col-md-4 col-12 chart-text text-center">
+                    I can work with a side set of tools:
+                    <div class="chart-icons">
+                        <i class="fab fa-js"></i>
+                        <i class="fas fa-gem"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-git-alt"></i>
+                        <br>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fab fa-wordpress"></i>
+                        <i class="fab fa-aws"></i>
+                        <i class="fab fa-docker"></i>
+                        <!-- <i class="fab fa-php"></i> -->
+                        <i class="fab fa-laravel"></i>
                     </div>
                 </div>
-
-                <div class="row section-spacing">
-                    <div id="canvas-holder" class="offset-md-1 col-md-6 col-12" style="width:40%"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                        <canvas id="chart-area" style="display: block; width: 513px; height: 256px;" width="513" height="256" class="chartjs-render-monitor"></canvas>
-                    </div>
-                    
-                    <div class="col-md-4 col-12 chart-text text-center">
-                        I can work with a side set of tools:
-                        <div class="chart-icons">
-                            <i class="fab fa-js"></i>
-                            <i class="fas fa-gem"></i>
-                            <i class="fab fa-html5"></i>
-                            <i class="fab fa-css3-alt"></i>
-                            <i class="fab fa-git-alt"></i>
-                            <br>
-                            <i class="fab fa-bootstrap"></i>
-                            <i class="fab fa-wordpress"></i>
-                            <i class="fab fa-aws"></i>
-                            <i class="fab fa-docker"></i>
-                            <!-- <i class="fab fa-php"></i> -->
-                            <i class="fab fa-laravel"></i>
-                        </div>
-                    </div>
-                </div>
+            </div>
         </section>
-
         <footer class="footer text-center section-spacing">
             <div class="footer-icon-wrapper">
                 <i class="footer-icon fas fa-envelope"></i>
@@ -104,7 +94,6 @@
                 powered by wordpress & made with &hearts; by me.
             </div>
         </footer>
-
         <script src="resources/js/main.js"></script>
     </body>
 </html>
