@@ -18,15 +18,34 @@
 }
 
 .hero-text-wrapper {
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.hero-button-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 55%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
 }
 
-.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
-    background-color: #FFF;
+.hero-button {
+    font-size: 24px;
+    color:#FFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFF;
+    border-radius: 50px;
+    background: transparent;
+    padding: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 60px;
 }
 
 .nav {
@@ -45,25 +64,8 @@
     text-decoration: none;
 }
 
-
-.hero-button-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-button {
-    font-size: 28px;
-    color: #FFF;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #FFF;
-    border-radius: 50px;
-    background: transparent;
-    padding: 20px;
-    width: 300px;
-    margin: auto;
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+    background-color: #FFF;
 }
 
 .section-header {
