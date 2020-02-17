@@ -63,6 +63,13 @@
     padding-top: 3rem !important
 }
 
+.nav-brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .nav-brand {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
@@ -103,7 +110,7 @@
     display: inline-block;
 }
 
-.chart-icons {
+.chart-icons, .footer-icon {
     font-size: 32px;
 }
 
@@ -134,43 +141,53 @@
 .footer-icon {
     width: 50px;
     padding: 9px;
-    font-size: 32px;
-}
-
-@media only screen and (min-width: 321px) {
-    .nav-brand {
-        font-size: 22px;
-    }
 }
 
 @media only screen and (max-width: 321px) {
-    .hero-text {
-        font-size: 22px;
-    }
-
-    .hero-text-wrapper {
-        height: 55%; /* here I can try to use sass to calculate the size of the nav and then math my wrapper size */
-    }
-
-    .hero-button {
-        font-size: 22px;
-        width: 225px;
-    }
-
     .section-header {
+        margin-top: 32px;
         margin-bottom: 32px;
-    }
-
-    .about-image-wrapper, .chart-text {
-        margin-top: 3em;
+        font-size: 36px;
     }
 
     .section-spacing {
-        margin-top: 64px;
+        margin-top: 32px;
+    }
+    
+    .hero-text {
+        font-size: 20px;
+        width: 240px;
+    }
+
+    .hero-button {
+        font-size: 16px;
+        margin-top: 50px;
+        width: 170px;
+        border-width: 1px;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+    .about-image-wrapper {
+        margin-top: 32px;
+    }
+
+    .chart-text, #canvas-hoder {
+        margin-top: 32px;
+    }
+
+    .chart-icon-wrapper {
+        width: 30px;
+    }
+
+    .chart-icons, .footer-icon {
+        font-size: 24px;
     }
 
     .footer {
         padding-top: 64px;
         padding-bottom: 64px;
-    }
+    }    
 }
