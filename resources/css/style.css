@@ -6,6 +6,10 @@
     margin-bottom: 64px;
 }
 
+.section-spacing {
+    margin-top: 128px;
+}
+
 .hero {
     background-image: url(../images/background.jpg);
     height: 100vh;
@@ -93,10 +97,6 @@
     border-radius: 50%;
 }
 
-.section-spacing {
-    margin-top: 128px;
-}
-
 .chart-icon-wrapper {
     width: 50px;
     padding: 9px;
@@ -108,7 +108,9 @@
 }
 
 .chart-text {
-    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
@@ -130,8 +132,9 @@
 }
 
 .footer-icon {
-    padding: 10px;
-    font-size: 24px;
+    width: 50px;
+    padding: 9px;
+    font-size: 32px;
 }
 
 @media only screen and (min-width: 321px) {
@@ -156,10 +159,6 @@
 
     .section-header {
         margin-bottom: 32px;
-    }
-
-    .about-text, .chart-text {
-        padding-top: 0px;
     }
 
     .about-image-wrapper, .chart-text {
