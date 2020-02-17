@@ -26,7 +26,7 @@ var config = {
         labels: [
             'Front-end',
             'Back-end',
-            'Infrastrucutre',
+            'Infrastructure',
             'Others',
         ]
     },
