@@ -150,6 +150,10 @@
         font-size: 36px;
     }
 
+    .section-spacing, .about-image-wrapper, .chart-text {
+        margin-top: 42px;
+    }
+
     .nav-brand {
         font-size: 20px;
     }
@@ -168,6 +172,15 @@
 
     .about {
         font-size: 18px;
+    }
+
+    .chart-icons, .footer-icon {
+        font-size: 28px;
+    }
+
+    .footer {
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 }
 
@@ -213,9 +226,4 @@
     .chart-icons, .footer-icon {
         font-size: 24px;
     }
-
-    .footer {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }    
 }
