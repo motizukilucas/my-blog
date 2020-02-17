@@ -19,7 +19,7 @@
 
 .hero-text-wrapper {
     position: absolute;
-    top: 62.5%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -44,7 +44,7 @@
     padding: 20px;
     width: 250px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .nav {
@@ -54,8 +54,6 @@
 .nav-brand {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    align-items: center;
 }
 
 .nav-brand:hover {
@@ -63,6 +61,10 @@
     text-decoration: none;
 }
 
+/* 
+* @TODO
+* quando o botao vira um X ele ta ficando preto
+*/
 .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
     background-color: #FFF;
 }
