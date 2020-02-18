@@ -1,3 +1,10 @@
+// @TODO welcome animation
+window.addEventListener('load', function () {
+    $(".page-wrapper").css("opacity", "1");
+//     $(".welcome").css("display", "flex");
+});
+
+// Hamburger
 var hamburger = $(".hamburger");
 
 hamburger.click(function() {

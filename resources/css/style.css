@@ -1,3 +1,32 @@
+/* @TODO welcome animation */
+/* .welcome {
+    height: 100%;
+    background-color: #000;
+    color: #000;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 128px;
+    // transition-duration: 1.5s;
+    // transition-timing-function: ease;
+    animation-delay: 1s;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    0% { color: #000; }
+    50% { color: #FFF; }
+    100% { color: #000; }
+}
+*/
+
+.page-wrapper {
+    opacity: 0;
+}
+
 .section-header {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
