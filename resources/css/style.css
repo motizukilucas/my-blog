@@ -11,7 +11,7 @@
 }
 
 .hero {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background2.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -37,6 +37,12 @@
     text-align: center;
 }
 
+.thanks {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
 
 .hero-button-wrapper {
     display: flex;
