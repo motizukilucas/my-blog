@@ -12,6 +12,18 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
         <link href="resources/css/hamburgers.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
+        <?php
+            // @TODO verificar essas funções do wordpress
+
+            // if we didn't register it, we HAVE to set the $src parameter!
+            wp_enqueue_style(
+                'style',
+                get_template_directory_uri() . '/css/my-bootstrap-extension.css',
+                array('style'),
+                null, // example of no version number...
+                // ...and no CSS media type
+            );
+        ?>
     </head>
     <body>
         <!-- @TODO welcome animation -->
