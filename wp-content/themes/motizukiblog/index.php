@@ -10,20 +10,8 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-        <link href="resources/css/hamburgers.min.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
-        <?php
-            // @TODO verificar essas funções do wordpress
-
-            // if we didn't register it, we HAVE to set the $src parameter!
-            wp_enqueue_style(
-                'style',
-                get_template_directory_uri() . '/css/my-bootstrap-extension.css',
-                array('style'),
-                null, // example of no version number...
-                // ...and no CSS media type
-            );
-        ?>
+        <link href="wp-content/themes/motizukiblog/resources/css/hamburgers.min.css" rel="stylesheet">
+        <link href="wp-content/themes/motizukiblog/style.css" rel="stylesheet">
     </head>
     <body>
         <!-- @TODO welcome animation -->
@@ -71,7 +59,7 @@
                         Here is a picture of my pretty face.
                     </div>
                     <div class="about-image-wrapper col-md-3 offset-md-0 offset-2 col-10">
-                        <img class="about-image" src="resources/images/profile.jpg">
+                        <img class="about-image" src="wp-content/themes/motizukiblog/resources/images/profile.jpg">
                     </div>
                 </div>
                 <div class="row section-spacing">
@@ -116,6 +104,6 @@
                 </div>
             </footer>
         </div>
-        <script src="resources/js/main.js"></script>
+        <script src="wp-content/themes/motizukiblog/resources/js/main.js"></script>
     </body>
 </html>
