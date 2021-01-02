@@ -35,4 +35,4 @@ cat backup.sql | sudo docker exec -i [CONTAINER_ID] /usr/bin/mysql -u root --pas
 > - `mysqldump [OPTIONS] -p`
 
 ## Connecting to the server
- ssh -i ~/Downloads/MotizukiBlog.pem ubuntu@ec2-18-225-33-202.us-east-2.compute.amazonaws.com
+ ssh -i ~/Downloads/portfolio.pem ubuntu@ec2-18-222-52-95.us-east-2.compute.amazonaws.com
