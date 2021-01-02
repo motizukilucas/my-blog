@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lucas Motizuki</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500|Raleway:300,400,600|Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c4c6e66996.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+        <link href="resources/css/hamburgers.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- @TODO welcome animation -->
+        <!-- <div class="welcome">
+            Welcome.
+        </div> -->
+        <div class="page-wrapper">
+            <section class="hero">
+                <div class="hero-color-overlay">
+                    <div class="container">
+                        <ul class="nav">
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </ul>
+                        <div class="hero-text-wrapper">
+                            <div class="hero-text">
+                                Hello, I'm <span class="highlight">Lucas Motizuki</span>. <br>
+                                Full stack developer. <br>
+                                Based in Rio de Janeiro, Brazil.
+                            </div>
+                            <div class="hero-button-wrapper">
+                                <button class="hero-button">
+                                    Get to know me >
+                                </button>
+                            </div>
+                        </div>
+                        <a class="thanks" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@emilep?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Émile Perron"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Émile Perron</span></a>
+                    </div>
+                </div>  
+            </section>
+            <section class="container about">
+                <h1 class="section-header">Who am I?</h1>
+                <div class="row">
+                    <div class="offset-md-1 col-md-7 col-lg-8 col-12 about-text">
+                        I'm a computer science student at Veiga de Almeida University. <br>
+                        Last year I worked as a full stack for Bilo, a startup in Rio. <br>
+                        Couple years earlier I did research and development for Ilumno. <br>
+                        Now I struggling with my thesis on game development.
+                    </div>
+                    <div class="about-image-wrapper col-md-3 offset-md-0 offset-2 col-10">
+                        <img class="about-image" src="resources/images/profile.jpg">
+                    </div>
+                </div>
+                <div class="row section-spacing">
+                    <div id="canvas-holder" class="offset-md-1 col-md-6 offset-lg-0 col-12" style="width:40%"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                        <canvas id="chart-area" style="display: block; width: 513px; height: 256px;" width="513" height="256" class="chartjs-render-monitor"></canvas>
+                    </div>
+                    <div class="col-md-5 col-lg-6 col-12 chart-text text-center">
+                        Lately I've been working with these tools:
+                        <div class="chart-icons">
+                            <div class="chart-icon-wrapper"><i style="color: #FFD600;" class="fab fa-js"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #E53935;" class="fas fa-gem"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #FF6D00;" class="fab fa-html5"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #039BE5;" class="fab fa-css3-alt"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #F4511e;" class="fab fa-git-alt"></i></div>
+                            <br>
+                            <div class="chart-icon-wrapper"><i style="color: #673ab7;" class="fab fa-bootstrap"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #01579b;" class="fab fa-wordpress"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #373837;" class="fab fa-aws"></i></div>
+                            <div class="chart-icon-wrapper"><i style="color: #03a9f4;" class="fab fa-docker"></i></div>
+                            <!-- <div class="chart-icon-wrapper"><i style="color: #FF6D00;" class="fab fa-php"></i></div> -->
+                            <div class="chart-icon-wrapper"><i style="color: #FF291A;" class="fab fa-laravel"></i></div>
+                        </div>
+                        I'm always open to learning new ones though. 
+                    </div>
+                </div>
+            </section>
+            <footer class="footer text-center section-spacing">
+                <a class="footer-icon-wrapper" href="mailto:motizuki@protonmail.com">
+                    <i class="footer-icon fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/lucasmotizuki/" class="footer-icon-wrapper">
+                    <i class="footer-icon fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/motizukilucas/" class="footer-icon-wrapper" style="margin-right: 0px;">
+                    <i class="footer-icon fab fa-github"></i>
+                </a>
+                <div style="color: white; font-family: 'Oswald', sans-serif; margin-top: 36px;">
+                    made with &hearts; by me.
+                </div>
+            </footer>
+        </div>
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>
