@@ -255,6 +255,11 @@ Tags: bootstrap
     padding: 9px;
 }
 
+.footer-icon:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
 @media only screen and (max-width: 376px) {
     .project {
         width: 400px;
