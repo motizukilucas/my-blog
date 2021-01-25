@@ -48,7 +48,7 @@ Tags: bootstrap
 }
 
 .hero {
-    background-image: url(resources/images/background.jpg);
+    background-image: url(../images/background.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -216,15 +216,15 @@ Tags: bootstrap
 }
 
 .the-hider {
-    background-image: url(resources/images/the_hider.jpg);
+    background-image: url(../images/the_hider.jpg);
 }
 
 .dular {
-    background-image: url(resources/images/dular.jpg);
+    background-image: url(../images/dular.jpg);
 }
 
 .harry {
-    background-image: url(resources/images/harry.jpg);
+    background-image: url(../images/harry.jpg);
 }
 
 .footer {
