@@ -133,7 +133,7 @@ Tags: bootstrap
     background-color: #FFF;
 }
 
-.about {
+.about, .graph, .projects {
     font-size: 20px;
 }
 
@@ -393,4 +393,24 @@ Tags: bootstrap
     .footer-icon {
         padding: 14px;
     }
+}
+
+.about div {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 3s ease;
+}
+
+.about div[data-scroll="in"] {
+    transform: scaleX(1);
+}
+
+.graph div {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 3s ease;
+}
+
+.graph div[data-scroll="in"] {
+    transform: scaleX(1);
 }
