@@ -395,22 +395,32 @@ Tags: bootstrap
     }
 }
 
-.about div {
+
+
+
+
+
+
+
+
+/* SCROLL OUT */
+
+.about {
     transform: scaleX(0);
     transform-origin: left;
     transition: 3s ease;
 }
 
-.about div[data-scroll="in"] {
+.about[data-scroll="in"] {
     transform: scaleX(1);
 }
 
-.graph div {
+.graph {
     transform: scaleX(0);
     transform-origin: right;
     transition: 3s ease;
 }
 
-.graph div[data-scroll="in"] {
+.graph[data-scroll="in"] {
     transform: scaleX(1);
 }
